@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStack - Home Page</title>
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/lib/boxicons-2.0.7/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/lib/Fancybox v3/source/jquery.fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/lib/imageHover.css Version 2.0/css/imagehover.min.css"
+    />
+  </head>
+  <body class="light-theme">
+    <section class="preloader">
+      <ol class="row">
+        <div class="loading">
+          <div class="text-sm-6xl"></div>
+          <div class="text-sm-6xl"></div>
+          <div class="text-sm-6xl"></div>
+        </div>
+      </ol>
+    </section>
+
+    <section class="sign-area">
+      <main class="forms-container">
+        <div class="signin-signup col-sm-10 col-md-7 col-lg-5">
+          <form action="" method="POST" class="sign-in-form">
+            <h1 class="title text-3xl">Masuk</h1>
+            <p class="subtitle text-base">Masuk untuk mengakses akun Anda</p>
+            <div class="field-sign">
+              <label for="email-in" class="field-label text-sm">
+                Alamat email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email-in"
+                placeholder="contoh@email.com"
+                class="field-input text-base"
+                required
+              />
+            </div>
+            <div class="field-sign">
+              <div class="field-row">
+                <label for="password-in" class="field-label text-sm">
+                  Kata sandi
+                </label>
+                <a href="#" class="field-link text-sm">
+                  Tidak ingat kata sandi ?
+                </a>
+              </div>
+              <div class="field-row">
+                <button type="button" class="pass-btn">
+                  <i class="text-xl bx bx-hide"></i>
+                </button>
+                <input
+                  type="password"
+                  name="password"
+                  id="password-in"
+                  placeholder="*****"
+                  class="field-input text-base"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field-row pt-1">
+              <button type="submit" class="submit-btn SignIn-btn text-base">
+                Kirimkan
+              </button>
+            </div>
+            <div class="field-row">
+              <div class="login-line"></div>
+              <p class="social-desc text-sm">Masuk dengan akun sosial media</p>
+              <div class="login-line"></div>
+            </div>
+            <div class="social-media">
+              <a href="#" class="social-link text-sm-5xl twitter-bg">
+                <i class="bx bxl-twitter text-2xl"></i>
+              </a>
+              <a href="#" class="social-link text-sm-5xl facebook-bg">
+                <i class="bx bxl-facebook text-2xl"></i>
+              </a>
+              <a href="#" class="social-link text-sm-5xl github-bg">
+                <i class="bx bxl-github text-2xl"></i>
+              </a>
+            </div>
+          </form>
+          <form
+            action="https://jsonplaceholder.typicode.com/posts"
+            class="sign-up-form"
+          >
+            <h1 class="title text-3xl">Daftar</h1>
+            <p class="subtitle text-base">
+              Daftar untuk mengakses Kelas Swakarya
+            </p>
+            <div class="field-sign">
+              <label for="email-up" class="field-label text-sm">
+                Alamat email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email-up"
+                placeholder="contoh@email.com"
+                class="field-input text-base"
+                required
+              />
+            </div>
+            <div class="field-sign">
+              <div class="field-row">
+                <label for="password-up" class="field-label text-sm">
+                  Kata sandi
+                </label>
+                <a href="#" class="field-link text-sm">
+                  Tidak ingat kata sandi ?
+                </a>
+              </div>
+              <div class="field-row">
+                <button type="button" class="pass-btn">
+                  <i class="text-xl bx bx-hide"></i>
+                </button>
+                <input
+                  type="password"
+                  name="password"
+                  id="password-up"
+                  placeholder="*****"
+                  class="field-input text-base"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field-row">
+              <button type="submit" class="submit-btn SignIn-btn text-base">
+                Kirimkan
+              </button>
+            </div>
+            <div class="field-row">
+              <div class="login-line"></div>
+              <p class="social-desc text-sm">Masuk dengan akun sosial media</p>
+              <div class="login-line"></div>
+            </div>
+            <div class="social-media">
+              <a href="#" class="social-link text-sm-5xl twitter-bg">
+                <i class="bx bxl-twitter text-2xl"></i>
+              </a>
+              <a href="#" class="social-link text-sm-5xl facebook-bg">
+                <i class="bx bxl-facebook text-2xl"></i>
+              </a>
+              <a href="#" class="social-link text-sm-5xl github-bg">
+                <i class="bx bxl-github text-2xl"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <aside class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3 class="text-sm-lg text-md-2xl">Belum punya Akun ?</h3>
+            <p class="text-sm-sm text-md-lg col-sm-10 col-md-10 col-lg-8">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+              ex ratione. Aliquid!
+            </p>
+            <button class="panel-btn text-sm-sm text-md-base" id="sign-up-btn">
+              Daftar
+            </button>
+          </div>
+          <img
+            src="../assets/img/illus/118.svg"
+            class="image text-sm-9xl"
+            alt=""
+          />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3 class="text-sm-xl text-md-2xl">Sudah punya Akun ?</h3>
+            <p class="text-sm-sm text-md-lg col-sm-10 col-md-10 col-lg-8">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              laboriosam ad deleniti.
+            </p>
+            <button class="panel-btn text-base" id="sign-in-btn">Masuk</button>
+          </div>
+          <img
+            src="../assets/img/illus/196.svg"
+            class="image text-sm-9xl"
+            alt=""
+          />
+        </div>
+      </aside>
+    </section>
+
+    <script src="../assets/lib/smooth-scroll v15.1.3/dist/smooth-scroll.polyfills.js"></script>
+    <script src="../assets/lib/jquery v3.6.0/jquery.js"></script>
+    <script src="../assets/lib/Fancybox v3/source/jquery.fancybox.pack.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/sign.js"></script>
+  </body>
+</html>

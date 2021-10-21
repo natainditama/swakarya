@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStack - Home Page</title>
+    <link rel="icon" href="https://swakarya.netlify.app/assets/favicon.ico" type="image/x-icon" />
+ 
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        overflow: hidden;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(249 250 251);
+        font-family: sans-serif;
+      }
+
+      a{
+        margin-top: 1em;
+        background-color: rgb(0 150 136 / 1);
+        background-size: 200%;
+        color: rgb(255 255 255 / 1);
+        text-decoration: none;
+        padding: 0.4em 0.8em;
+        border-radius: 0.5em;
+        font-weight: normal;
+        letter-spacing: 0.05em;
+        background-position: left;
+        transition-property: background-position;
+        transition-duration: 0.3s;
+        box-shadow: 0.25em 0.25em 0.5em rgb(var(--shadow) / 0.25);
+      }
+
+      p{
+        margin-top: .5em;
+      }
+
+      @media screen and (min-width:320px) {
+        h1{
+          font-size: 1.875rem;
+          line-height: 2.25rem;
+        }
+        p, a{
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+        img{
+          width: 80%;
+        }
+      }
+      
+      @media screen and (min-width:768px) {
+        h1{
+          font-size: 3rem;
+          line-height: 1;
+        }
+        p, a{
+           font-size: 1.125rem;
+          line-height: 1.75rem;
+        }
+        img{
+          width: 60%;
+        }
+      }
+
+    
+    </style>
+  </head>
+  <body class="light-theme">
+    <img src="https://swakarya.netlify.app/assets/img/illus/251.svg" alt="404" />
+      <h1>
+        Oops!!
+      </h1>
+      <p>Halaman tidak ditemukan</p>
+      <a href="https://swakarya.netlify.app/">Beranda</a>
+    </section>
+
+  </body>
+</html>

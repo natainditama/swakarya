@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechStack - Home Page</title>
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/lib/boxicons-2.0.7/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/lib/Fancybox v3/source/jquery.fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/lib/imageHover.css Version 2.0/css/imagehover.min.css"
+    />
+  </head>
+  <style>
+    body,
+    html {
+      overflow: visible;
+    }
+  </style>
+
+  <script>
+    const dataUserName = sessionStorage.getItem("dataEmail");
+    if (dataUserName == null) {
+      location.href = "sign.html";
+    }
+    let indexUser = dataUserName.indexOf("@");
+    const userName = dataUserName.slice(0, indexUser);
+  </script>
+
+  <body class="light-theme">
+    <section class="preloader">
+      <ol class="row">
+        <div class="loading">
+          <div class="text-sm-6xl"></div>
+          <div class="text-sm-6xl"></div>
+          <div class="text-sm-6xl"></div>
+        </div>
+      </ol>
+    </section>
+
+    <header class="header-area scroll">
+      <div class="header-content col-sm-11">
+        <a href="" class="header-brand">
+          <img src="../assets/img/logo.png" alt="Swakarya" class="brand-logo" />
+          <h1 class="brand-name text-sm-3xl text-md-4xl">Swakarya</h1>
+        </a>
+        <button class="mobile-btn text-sm-3xl">
+          <i class="bx bx-menu text-sm-3xl"></i>
+        </button>
+        <nav class="header-nav">
+          <div class="profile">
+            <strong class="text-md-xl user-name">natainditama</strong>
+            <img
+              src="../assets/img/user/user-0.png"
+              alt=""
+              class="text-sm-5xl"
+            />
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <nav class="sidebar-area col-sm-9 col-md-6 col-lg-3"></nav>
+
+    <main class="main-app col-sm-12 col-lg-9"></main>
+
+    <script src="../assets/lib/smooth-scroll v15.1.3/dist/smooth-scroll.polyfills.js"></script>
+    <script src="../assets/lib/jquery v3.6.0/jquery.js"></script>
+    <script src="../assets/lib/Fancybox v3/source/jquery.fancybox.pack.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/user.js"></script>
+  </body>
+</html>
