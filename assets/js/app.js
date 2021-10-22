@@ -1,3 +1,9 @@
+const support = CSS.supports("--test", "red");
+if (!support) {
+  alert("Maaf browser anda tidak support, silahkan update terlebih dahulu");
+  location.href = "404.html";
+}
+
 $("html, body").animate({ scrollTop: 0 }, 1000);
 
 const headerScroll = (scroll) => {

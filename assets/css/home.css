@@ -695,3 +695,119 @@
     bottom: -1.2em;
   }
 }
+
+.testi-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.testi-area .container {
+  width: 50vw;
+  height: 50vh;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(var(--main-color) / 1);
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  transition: 2s;
+}
+
+.slide .people-profile,
+.slide .people-say {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.slide .people-profile img {
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+}
+
+.slide .people-profile span {
+  text-transform: capitalize;
+  color: rgb(var(--white) / 1);
+}
+
+.slide .people-say {
+  padding-right: 3rem;
+  text-align: justify;
+  color: rgb(var(--white) / 0.75);
+}
+
+.slide .people-say i {
+  transform: scale(1.2);
+  margin: 0 0.4em;
+  color: rgb(var(--white) / 1);
+}
+
+@media screen and (min-width: 320px) {
+  .testi-area .container {
+    height: 62.5vh;
+    width: 75vw;
+  }
+
+  .slide {
+    flex-direction: column;
+  }
+
+  .slide .people-profile {
+    min-height: 16.666667%;
+    flex-direction: row;
+    background-color: salmon;
+  }
+
+  .slide .people-say {
+    min-height: 66.666667%;
+    width: 66.666667%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .testi-area .container {
+    height: 50vh;
+    width: 50vw;
+  }
+
+  .slide {
+    flex-direction: row;
+  }
+
+  .slide .people-profile {
+    min-height: 100%;
+    width: 33.333333%;
+  }
+
+  .slide .people-say {
+    min-height: 100%;
+    width: 66.666667%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .testi-area .container {
+    height: 50vh;
+    width: 50vw;
+  }
+}

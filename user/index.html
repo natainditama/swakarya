@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechStack - Home Page</title>
+    <title>Swakarya - User Page</title>
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link
@@ -26,13 +26,14 @@
       overflow: visible;
     }
   </style>
-
+  <script src="../assets/lib/jquery v3.6.0/jquery.js"></script>
   <script>
-    const dataUserName = sessionStorage.getItem("dataEmail");
+    console.log(sessionStorage.getItem("dataEmail"));
+    let dataUserName = sessionStorage.getItem("dataEmail");
     if (dataUserName == null) {
       location.href = "sign.html";
     }
-    let indexUser = dataUserName.indexOf("@");
+    let indexUser = dataUserName.search("@");
     const userName = dataUserName.slice(0, indexUser);
   </script>
 
@@ -49,15 +50,15 @@
 
     <header class="header-area scroll">
       <div class="header-content col-sm-11">
-        <a href="" class="header-brand">
+        <a href="../index.html" class="header-brand">
           <img src="../assets/img/logo.png" alt="Swakarya" class="brand-logo" />
           <h1 class="brand-name text-sm-3xl text-md-4xl">Swakarya</h1>
         </a>
-        <button class="mobile-btn text-sm-3xl">
-          <i class="bx bx-menu text-sm-3xl"></i>
-        </button>
         <nav class="header-nav">
           <div class="profile">
+            <button class="mobile-btn user-btn text-sm-3xl">
+              <i class="bx bx-menu text-sm-3xl"></i>
+            </button>
             <strong class="text-md-xl user-name">natainditama</strong>
             <img
               src="../assets/img/user/user-0.png"
@@ -69,9 +70,45 @@
       </div>
     </header>
 
-    <nav class="sidebar-area col-sm-9 col-md-6 col-lg-3"></nav>
+    <nav class="sidebar-area col-sm-6 col-md-4 col-lg-2">
+      <button
+        class="active mobile-link col-sm-12 text-sm-xl text-md-lg"
+        data-target="home.html"
+      >
+        <i class="bx bxs-home text-sm-lg text-md-xl"></i>
+        Beranda
+      </button>
+      <button
+        class="mobile-link col-sm-12 text-sm-xl text-md-lg"
+        data-target="courses.html"
+      >
+        <i class="bx bxs-bookmarks text-sm-lg text-md-xl"></i>
+        Kelas
+      </button>
+      <button
+        class="mobile-link col-sm-12 text-sm-xl text-md-lg"
+        data-target="award.html"
+      >
+        <i class="bx bxs-award text-sm-lg text-md-xl"></i>
+        Sertifikat
+      </button>
+      <button
+        class="mobile-link col-sm-12 text-sm-xl text-md-lg"
+        data-target="forum.html"
+      >
+        <i class="bx bxs-chat text-sm-lg text-md-xl"></i>
+        Forum
+      </button>
+      <button
+        class="mobile-link logout-link ol-sm-12 text-sm-xl text-md-lg"
+        data-target="home.html"
+      >
+        <i class="bx bx-log-out text-sm-lg text-md-xl"></i>
+        Keluar
+      </button>
+    </nav>
 
-    <main class="main-app col-sm-12 col-lg-9"></main>
+    <main class="main-app col-sm-12 col-md-11 col-lg-9"></main>
 
     <script src="../assets/lib/smooth-scroll v15.1.3/dist/smooth-scroll.polyfills.js"></script>
     <script src="../assets/lib/jquery v3.6.0/jquery.js"></script>
