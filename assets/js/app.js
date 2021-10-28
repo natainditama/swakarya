@@ -250,13 +250,12 @@ const showPass = (element, target) => {
 };
 
 let dataUser = JSON.parse(sessionStorage.getItem("dataUser"));
-if (sessionStorage.getItem("dataUser") == null) {
-  dataUser = [
-    { email: "natainditama@gmail.com", password: "nata" },
-    { email: "bramcahyadi@gmail.com", password: "bram" },
-    { email: "defadanuarta@gmail.com", password: "defa" },
-  ];
-}
+dataUser = dataUser ?? [
+  { email: "natainditama@gmail.com", password: "nata" },
+  { email: "bramcahyadi@gmail.com", password: "bram" },
+  { email: "defadanuarta@gmail.com", password: "defa" },
+];
+
 console.log(dataUser);
 const checkValid = (email, password, array) => {
   for (const data of array) {
@@ -287,7 +286,6 @@ const signUp = (event, element) => {
   if (!checkValid(inputEmail, inputPass, dataUser)) {
     insertData(action, inputEmail, inputPass);
     sessionStorage.setItem("dataEmail", inputEmail);
-    location.href = "index.html";
   } else {
     alert("Sign In Failed");
     location.reload();
@@ -300,13 +298,14 @@ const insertData = (url, postEmail, postPass) => {
       const dataNew = [];
       dataNew.push(data);
       sessionStorage.setItem("dataUser", JSON.stringify(dataNew));
+      console.log(sessionStorage.getItem("dataUser"));
     } else {
       const dataCurrent = JSON.parse(sessionStorage.getItem("dataUser"));
       dataCurrent.push(data);
       sessionStorage.setItem("dataUser", JSON.stringify(dataCurrent));
     }
+    location.href = "index.html";
   });
-  location.reload();
 };
 
 const easingData = [
