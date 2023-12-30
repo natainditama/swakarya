@@ -17,7 +17,7 @@
         "build": "npm run js"
     },
     "devDependencies": {
-        "rollup": "^2.6.1",
+        "rollup": "^4.0.0",
         "rollup-plugin-terser": "^5.3.0",
         "sass": "^1.26.5",
         "imagemin-cli": "^5.1.0",
