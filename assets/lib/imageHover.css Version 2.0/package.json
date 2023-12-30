@@ -26,7 +26,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-postcss": "^8.0.0",
     "gulp-clean": "^0.4.0",
-    "autoprefixer": "^9.6.0"
+    "autoprefixer": "^10.0.0"
   },
   "browserslist": [
     "last 1 version"
