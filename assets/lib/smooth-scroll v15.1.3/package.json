@@ -24,7 +24,7 @@
         "imagemin-mozjpeg": "^8.0.0",
         "imagemin-pngcrush": "^6.0.0",
         "imagemin-pngquant": "^8.0.0",
-        "imagemin-zopfli": "^6.0.0",
+        "imagemin-zopfli": "^7.0.0",
         "svgo": "^1.3.2"
     }
 }
