@@ -1,17 +1,11 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "automergeType": "branch"
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", "group:all"],
+  "major": {
+    "enabled": false
   },
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "matchCurrentVersion": "!/^0/",
-      "automerge": true
-    }
-  ]
+  "updatePinnedDependencies": false,
+  "stabilityDays": 2,
+  "timezone": "Asia/Singapore",
+  "schedule": ["before 1am on Monday"]
 }
