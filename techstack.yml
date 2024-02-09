@@ -1,0 +1,520 @@
+repo_name: natainditama/swakarya
+report_id: 6101bea76c69eb00fc88337da61b2c82
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-09T04:45:34+00:00'
+requested_by: natainditama
+provider: github
+branch: main
+detected_tools_count: 36
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/natainditama/swakarya
+  detection_source: Repo Metadata
+- name: ES6
+  description: The next version of JavaScript
+  website_url: http://www.ecma-international.org/ecma-262/6.0/
+  version: 6.24.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/natainditama/swakarya
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: '1.10'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/Fancybox
+    v3/bower.json
+  detection_source: assets/lib/Fancybox v3/bower.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 14.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/natainditama/swakarya
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/.travis.yml
+  detection_source: assets/lib/smooth-scroll v15.1.3/.travis.yml
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: svgo
+  website_url: https://github.com/svg/svgo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: babelify
+  description: Babel browserify transform
+  package_url: https://www.npmjs.com/babelify
+  version: 7.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15993/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.29.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: gulp-clean
+  description: A gulp plugin for removing files and folders
+  package_url: https://www.npmjs.com/gulp-clean
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16218/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-cssnano
+  description: Minify CSS with cssnano
+  package_url: https://www.npmjs.com/gulp-cssnano
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16774/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-notify
+  description: Gulp plugin to send messages based on Vinyl Files or Errors to Mac
+    OS X, Linux or Windows using the node-notifier module
+  package_url: https://www.npmjs.com/gulp-notify
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16337/default_19913b5a2ce8aaeed5a69f95974f9afd07e8e8bc.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-postcss
+  description: PostCSS gulp plugin
+  package_url: https://www.npmjs.com/gulp-postcss
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16282/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 2.6.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/imageHover.css Version 2.0/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-11-12 04:10:34.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: imagemin-mozjpeg
+  description: Imagemin plugin for mozjpeg
+  package_url: https://www.npmjs.com/imagemin-mozjpeg
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18375/default_dfa436ad7e86b77a556a6a1efbcfc256ca9653ce.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package-lock.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: imagemin-pngquant
+  description: Imagemin plugin for `pngquant`
+  package_url: https://www.npmjs.com/imagemin-pngquant
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17166/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package-lock.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: node-notifier
+  description: A Node.js module for sending notifications on native Mac
+  package_url: https://www.npmjs.com/node-notifier
+  version: 5.4.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16146/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-30 11:16:22.000000000 Z
+  vulnerabilities:
+  - name: OS Command Injection in node-notifier
+    cve_id: CVE-2020-7789
+    cve_url: https://github.com/advisories/GHSA-5fw9-fq32-wv5p
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.0.1
+- name: object-assign
+  description: ES2015 `Object.assign
+  package_url: https://www.npmjs.com/object-assign
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16015/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: raf
+  description: RequestAnimationFrame polyfill for node and the browser
+  package_url: https://www.npmjs.com/raf
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16199/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: rollup-plugin-terser
+  description: Rollup plugin to minify generated es bundle
+  package_url: https://www.npmjs.com/rollup-plugin-terser
+  version: 5.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/smooth-scroll
+    v15.1.3/package-lock.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/imageHover.css
+    Version 2.0/package-lock.json
+  detection_source: assets/lib/smooth-scroll v15.1.3/package.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
+- name: vinyl-buffer
+  description: Convert streaming vinyl files to use buffers
+  package_url: https://www.npmjs.com/vinyl-buffer
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16203/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-30 11:28:12.000000000 Z
+- name: vinyl-source-stream
+  description: Use conventional text streams at the start of your gulp or vinyl pipelines
+  package_url: https://www.npmjs.com/vinyl-source-stream
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16081/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/parallax.js/package-lock.json
+  detection_source: assets/lib/parallax.js/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-12-30 11:28:12.000000000 Z
+- name: jquery-mousewheel
+  description: A jQuery plugin that adds cross-browser mouse wheel support
+  package_url: http://bower.io/jquery-mousewheel
+  version: 3.1.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/natainditama/swakarya/blob/main/assets/lib/Fancybox
+    v3/bower.json
+  detection_source: assets/lib/Fancybox v3/bower.json
+  last_updated_by: natainditama
+  last_updated_on: 2021-10-21 19:25:49.000000000 Z
